@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    font-family: 'Aboreto', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #233142;
+    }
+
+body{
+    background-color: #fcfefe;
+    color: #233142;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+#nav-bar {
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar a:hover {
+    border-bottom: solid 1px #f95959;
+} 
+
+#nav-bar li {
+    float: right;
+    margin-right: 40px;
+}
+
+.active {
+    border-bottom: #f95959 4px solid;
+}
+
+#logo, #nav-bar {
+    line-height: 80px;
+}
+#main-image {
+    background: url("https://www.wilburyclinic.co.uk/wp-content/uploads/home-3.jpg") no-repeat center center;
+    height: 800px;
+    width: 100%;
+}
+
+#main-background {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
