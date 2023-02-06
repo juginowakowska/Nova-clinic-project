@@ -11,6 +11,11 @@ h1 {
     color: #233142;
     }
 
+    /* header */
+header {
+    height: 150px;
+}
+
 body{
     background-color: #fcfefe;
     color: #233142;
@@ -20,12 +25,15 @@ body{
     float: left;
     font-size: 300%;
     margin-left: 5px;
+    padding-top: 30px;
 }
 
 #nav-bar {
     font-size: 120%;
     list-style-type: none;
     letter-spacing: 2px;
+    padding-top: 30px;
+    margin-right: 30px;
 }
 
 #nav-bar a {
@@ -39,7 +47,7 @@ body{
 
 #nav-bar li {
     float: right;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .active {
@@ -85,32 +93,72 @@ body{
 }
 
 #about-clinic {
-    height: 600px;
+    height: 500px;
 }
 
 .hero-header {
     font-family: 'Aboreto', cursive;
-    padding-left: 150px;
+    padding-left: 300px;
 }
 
 #right-image-main-page {
-    width: 45%;
+    width: 40%;
     float: right;
-    background: url('https://pro.tibbyolivier.com/wp-content/uploads/2017/04/therapist.png') no-repeat;
-    height: 100%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50p; 
-    padding-left: 2px;
+    background: url('https://harleywaxing.co.uk/wp-content/uploads/2022/01/s-beauty-therapist.jpg') no-repeat;
+    height: 80%;
     padding-right: 35px;
+    position: relative;
     
 }
 
 #text-left-main-page {
-    padding-top: 30px;
-    padding-left: 10px;
-    width: 50%;
+    padding-top: 100px;
+    padding-left: 200px;
+    width: 30%;
     float: left;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+
+hr {
+    width: 100%;
+    margin: 30px 0;
+}
+
+#mission-statement {
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+
+#team-photo {
+    background: url('https://waterhouseyoung.com/wp-content/uploads/2022/05/IMG_2356_RT.jpg') no-repeat center center;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+   object-fit: contain;
+   padding-top: 200px;
+}
+
+#team-section {
+    height: 600px;
+}
+
+/* map */
+
+#map-border {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 300px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
     
 }
