@@ -18,11 +18,12 @@ body{
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 300%;
+    margin-left: 5px;
 }
 
 #nav-bar {
-    font-size: 100%;
+    font-size: 120%;
     list-style-type: none;
     letter-spacing: 2px;
 }
@@ -49,13 +50,67 @@ body{
     line-height: 80px;
 }
 #main-image {
-    background: url("https://www.wilburyclinic.co.uk/wp-content/uploads/home-3.jpg") no-repeat center center;
-    height: 800px;
-    width: 100%;
-}
-
-#main-background {
+    background: url("https://images.squarespace-cdn.com/content/v1/5a572da449fc2ba8f2d4eca6/0439ee4f-7046-40d0-a77f-ba694e08ff9c/022019-hydrafacial-lead.jpeg") no-repeat center center;
     height: 700px;
     width: 100%;
+    
+}
+
+#hero-background {
+    height: 800px;
+    width: 100%;
     overflow: hidden;
+}
+
+#overlay-text, #overlay-text h3{
+    color: #233142;
+}
+
+#overlay-text {
+    font-size: 120%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+
+    padding-top: 25px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    right: 150px;
+    position : absolute;
+
+    background-color: rgba(227,227,227, .6);
+}
+
+#about-clinic {
+    height: 600px;
+}
+
+.hero-header {
+    font-family: 'Aboreto', cursive;
+    padding-left: 150px;
+}
+
+#right-image-main-page {
+    width: 45%;
+    float: right;
+    background: url('https://pro.tibbyolivier.com/wp-content/uploads/2017/04/therapist.png') no-repeat;
+    height: 100%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50p; 
+    padding-left: 2px;
+    padding-right: 35px;
+    
+}
+
+#text-left-main-page {
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 50%;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    
 }
