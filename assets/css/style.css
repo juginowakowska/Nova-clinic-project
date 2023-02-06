@@ -153,7 +153,7 @@ hr {
 #map-border {
     margin-bottom: 100px;
     margin-top: 100px;
-    height: 300px;
+    height: 200px;
 }
 
 #map {
@@ -162,3 +162,35 @@ hr {
     border: none;
     
 }
+
+/* footer */
+
+footer {
+    background-color: #f95959;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+footer > span {
+	color: #233142;
+    font-family: 'Aboreto', cursive;
+}
+
+footer > a {
+    color: rgba(227,227,227);
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 25px;
+    font-family: 'Aboreto', cursive;
+}
+
+footer > p {
+    color:#233142;
+    font-family: 'Aboreto', cursive;
+}
+
+
