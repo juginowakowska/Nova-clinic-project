@@ -68,6 +68,7 @@ body{
     height: 800px;
     width: 100%;
     overflow: hidden;
+    position:relative;
 }
 
 #overlay-text, #overlay-text h3{
@@ -137,7 +138,7 @@ hr {
 #team-photo {
     background: url('https://waterhouseyoung.com/wp-content/uploads/2022/05/IMG_2356_RT.jpg') no-repeat center center;
     position: relative;
-    height: 50%;
+    height: 80%;
     width: 100%;
     overflow: hidden;
    object-fit: contain;
@@ -181,11 +182,10 @@ footer > span {
 }
 
 footer > a {
-    color: rgba(227,227,227);
     text-decoration: none;
     padding: 0 10px;
     font-size: 25px;
-    font-family: 'Aboreto', cursive;
+    color: whitesmoke;
 }
 
 footer > p {
@@ -194,3 +194,35 @@ footer > p {
 }
 
 
+/* media query- reponsivness*/
+@media screen and (max-width: 1396px) {
+    h {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #about-clinic {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+    #right-image-main-page{
+        clear: both;
+        width: 100%;
+        box-align: center;
+        padding: 0;
+    }
+    #text-left-main-page {
+        width:100%;
+        float:left;
+        padding: 20;
+    }
+    #team-photo{
+        clear: both;
+        width: 100%;
+        box-align: center;
+        padding: 0;
+    }
+
+
+}
