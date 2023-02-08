@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
+
 }
 
 h1 {
@@ -164,34 +165,6 @@ hr {
     
 }
 
-/* footer */
-
-footer {
-    background-color: #f95959;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-}
-
-footer > span {
-	color: #233142;
-    font-family: 'Aboreto', cursive;
-}
-
-footer > a {
-    text-decoration: none;
-    padding: 0 10px;
-    font-size: 25px;
-    color: whitesmoke;
-}
-
-footer > p {
-    color:#233142;
-    font-family: 'Aboreto', cursive;
-}
 
 
 /* media query- reponsivness*/
@@ -225,4 +198,88 @@ footer > p {
     }
 
 
+}
+
+div {
+    display: block;
+}
+
+
+.contact-left-side {
+    width: 50%;
+    height: 600px;
+    padding: 15px;
+    border: 20px solid #e3e3e3;
+    float: left;
+    background-color: #e3e3e3;
+    color: #233142;
+}
+
+.text-right-side {
+    width: 50%;
+    height: 600px;
+    float: right;
+    text-align: left;
+    font-family: 'Aboreto', cursive;
+    background-color: #e3e3e3;
+    padding: 16px 2.5% 18px;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 6px;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
+    padding-block-end: 10px;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #455d7a;
+    border-image: initial;
+}
+
+.text-right-css {
+    color: #233142;
+    padding: 16px;
+}
+
+.text-input2 {
+    padding: 0 10%;
+}
+
+textarea {
+    font-weight: normal;
+    width: 100%;
+    height: 170px;
+}
+
+/* footer */
+
+footer {
+    background-color: #f95959;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+footer > span {
+	color: #233142;
+    font-family: 'Aboreto', cursive;
+}
+
+footer > a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+footer > p {
+    color:#233142;
+    font-family: 'Aboreto', cursive;
 }
