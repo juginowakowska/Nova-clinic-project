@@ -389,14 +389,14 @@ p {
 }
 .column {
     float: left;
-    width: 50%;
-    padding: 5px ;
+    width: 60%;
+    padding: 10px;
 }
 
 .column-text {
     float: right;
-    width: 50%;
-    padding: 5px;
+    width: 40%;
+    padding: 0;
 }
 
 #dermals {
@@ -409,4 +409,17 @@ p {
 
 #carboxytherapy {
     height: 400px;
+}
+
+#icoon {
+    height: 500px;
+}
+
+#alma {
+    height: 400px;
+}
+
+div > h2 {
+    font-family: 'Aboreto', cursive;
+    padding-left: 20px;
 }
