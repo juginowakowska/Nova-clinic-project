@@ -229,6 +229,20 @@ footer > p {
     font-family: 'Aboreto', cursive;
 }
 
+/*----------------Contact Page -----------*/
+
+
+.contact-heading {
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
 
 div {
     display: block;
@@ -242,10 +256,6 @@ form {
     display: block;
     margin-top: 0em;
 }
-
-/* details {
-    cursor: default;
-} */
 
 .details {
     font-family: 'Aboreto', cursive;
@@ -357,4 +367,46 @@ p {
     float: left;
     background-color: #e3e3e3;
     color: #233142;
+}
+
+.contact-heading {
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+
+/*---------------Treatment Page---------*/
+.fillers {
+    font-family:'Aboreto', cursive;
+    font-size: 20px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px ;
+}
+
+.column-text {
+    float: right;
+    width: 50%;
+    padding: 5px;
+}
+
+#dermals {
+    height: 400px;
+}
+
+.treatments{
+    height: 2000px;
+}
+
+#carboxytherapy {
+    height: 400px;
 }
