@@ -95,31 +95,12 @@ body{
 }
 
 #about-clinic {
-    height: 500px;
+    height: 600px;
+    padding-top: 60px;
 }
 
 .hero-header {
     font-family: 'Aboreto', cursive;
-    padding-left: 300px;
-}
-
-#right-image-main-page {
-    width: 40%;
-    float: right;
-    background: url('https://harleywaxing.co.uk/wp-content/uploads/2022/01/s-beauty-therapist.jpg') no-repeat;
-    height: 80%;
-    padding-right: 35px;
-    position: relative;
-    
-}
-
-#text-left-main-page {
-    padding-top: 100px;
-    padding-left: 200px;
-    width: 30%;
-    float: left;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
     
 }
 
@@ -129,21 +110,11 @@ hr {
 }
 
 #mission-statement {
-    font-size: 150%;
+    font-size: 50%;
     text-align: center;
     font-family: 'Aboreto', cursive;
     padding-bottom: 120px;
     padding-top: 50px;
-}
-
-#team-photo {
-    background: url('https://waterhouseyoung.com/wp-content/uploads/2022/05/IMG_2356_RT.jpg') no-repeat center center;
-    position: relative;
-    height: 80%;
-    width: 100%;
-    overflow: hidden;
-   object-fit: contain;
-   padding-top: 200px;
 }
 
 #team-section {
@@ -316,7 +287,7 @@ legend {
 }
 
 .text-input {
-    padding: 20px 10% 0;
+    padding: 30px 10% 0;
 }
 
 .text-input2 {
@@ -404,7 +375,7 @@ p {
 }
 
 .treatments{
-    height: 2000px;
+    height: 3000px;
 }
 
 #carboxytherapy {
@@ -419,7 +390,46 @@ p {
     height: 400px;
 }
 
+#meso {
+    height: 400px;
+}
+
+#prp {
+    height: 400px;
+}
+
 div > h2 {
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive; 
     padding-left: 20px;
 }
+
+
+.reviews {
+    height: inherit;
+    align-items: center !important;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 800px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    max-height:100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
