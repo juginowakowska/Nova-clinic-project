@@ -84,7 +84,7 @@ body{
     height: 150px;
     text-align: center;
 
-    padding-top: 25px;
+    padding-top: 18px;
     padding-left: 10px;
 
     bottom: 30px;
@@ -95,8 +95,8 @@ body{
 }
 
 #about-clinic {
-    height: 600px;
-    padding-top: 60px;
+    max-height: 900px;
+    padding-top: 100px;
 }
 
 .hero-header {
@@ -110,15 +110,11 @@ hr {
 }
 
 #mission-statement {
-    font-size: 50%;
+    font-size: 20px;
     text-align: center;
     font-family: 'Aboreto', cursive;
     padding-bottom: 120px;
-    padding-top: 50px;
-}
-
-#team-section {
-    height: 600px;
+    padding-top: 100px;
 }
 
 /* map */
@@ -171,7 +167,7 @@ hr {
 
 }
 
-/* footer */
+/*-----------footer--------------*/
 
 footer {
     background-color: #f95959;
@@ -206,12 +202,14 @@ footer > p {
 .contact-heading {
     text-align: center;
     font-family: 'Aboreto', cursive;
+    padding-bottom: 30px;
 
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    padding-bottom: 20px;
     
 }
 
@@ -239,7 +237,7 @@ form {
 .contact-left-side {
     width: 50%;
     height: 600px;
-    padding: 15px;
+    padding: 20px;
     border: 20px solid #e3e3e3;
     float: left;
     background-color: #e3e3e3;
@@ -253,7 +251,7 @@ form {
     text-align: left;
     font-family: 'Aboreto', cursive;
     background-color: #e3e3e3;
-    padding: 16px 2.5% 18px;
+    padding: 20px 2.5% 20px;
 }
 
 fieldset {
@@ -406,7 +404,7 @@ div > h2 {
 
 .reviews {
     height: inherit;
-    align-items: center !important;
+    padding-left: 135px;
 
 }
 
@@ -419,12 +417,13 @@ div > h2 {
   }
   
   .flex-container > div {
-    background-color: #f1f1f1;
-    width: 800px;
+    background-color: transparent;
+    width: 900px;
     margin: 10px;
     text-align: center;
-    line-height: 40px;
-    font-size: 20px;
+    line-height: 25px;
+    font-size: 17px;
+    padding: 30px;
   }
 
   img {
@@ -432,4 +431,9 @@ div > h2 {
     max-height:100%;
     overflow-clip-margin: content-box;
     overflow: clip;
+  }
+
+  p > a {
+    text-decoration: none;
+    color: #f95959;
   }
