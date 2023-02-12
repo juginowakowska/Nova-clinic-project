@@ -12,7 +12,7 @@ h1 {
     color: #233142;
     }
 
-    /* header */
+    /* --------------header--------------*/
 header {
     height: 150px;
 }
@@ -117,7 +117,7 @@ hr {
     padding-top: 100px;
 }
 
-/* map */
+/*---------------map--------------------*/
 
 #map-border {
     margin-bottom: 100px;
@@ -134,7 +134,7 @@ hr {
 
 
 
-/* media query- reponsivness*/
+/*--------------media query- reponsivness--------------*/
 @media screen and (max-width: 1396px) {
     h {
         width: 65%;
@@ -236,7 +236,7 @@ form {
 
 .contact-left-side {
     width: 50%;
-    height: 600px;
+    height: 700px;
     padding: 20px;
     border: 20px solid #e3e3e3;
     float: left;
@@ -246,12 +246,12 @@ form {
 
 .text-right-side {
     width: 50%;
-    height: 600px;
+    height: 700px;
     float: right;
     text-align: left;
     font-family: 'Aboreto', cursive;
     background-color: #e3e3e3;
-    padding: 20px 2.5% 20px;
+    padding: 12px 2.5% 20px;
 }
 
 fieldset {
@@ -349,6 +349,20 @@ p {
     text-align: center;
 
 }
+input[type=text] {
+    padding:10px;
+    margin:10px 0;
+  }
+
+input[type=email] {
+    padding:10px;
+    margin:10px 0;
+}
+
+input[type=tel] {
+    padding:10px;
+    margin:10px 0;
+}
 
 /*---------------Treatment Page---------*/
 .fillers {
@@ -372,7 +386,7 @@ p {
 }
 
 .treatments{
-    height: 3000px;
+    min-height: 2600px;
 }
 
 #carboxytherapy {
@@ -435,4 +449,8 @@ div > h2 {
   p > a {
     text-decoration: none;
     color: #f95959;
+    font-weight: 800;
+    font-size: 15px;
   }
+
+  
