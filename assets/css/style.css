@@ -6,7 +6,7 @@
 }
 
 h1 {
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #233142;
@@ -100,7 +100,7 @@ body{
 }
 
 .hero-header {
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
     
 }
 
@@ -112,7 +112,7 @@ hr {
 #mission-statement {
     font-size: 20px;
     text-align: center;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
     padding-bottom: 120px;
     padding-top: 100px;
 }
@@ -134,8 +134,8 @@ hr {
 
 
 
-/*--------------media query- reponsivness--------------*/
-@media screen and (max-width: 1396px) {
+/*--------------media query- reponsivness smartphone--------------*/
+@media screen and (max-width: 800px) {
     h {
         width: 65%;
         height: 1200px;
@@ -144,27 +144,34 @@ hr {
 
     #about-clinic {
         padding: 30px 0;
+        width: 100%;
+        min-height: 1000px;
         margin-top: 0;
+
     }
-    #right-image-main-page{
+    #overlay-text {
+        box-align: center;
         clear: both;
         width: 100%;
-        box-align: center;
-        padding: 0;
-    }
-    #text-left-main-page {
-        width:100%;
-        float:left;
-        padding: 20;
-    }
-    #team-photo{
-        clear: both;
-        width: 100%;
-        box-align: center;
-        padding: 0;
+        float: none;
+        overflow: hidden;
     }
 
+    .hero-header {
+       align-items: center;
+    }
 
+    .flex-container {
+        display: flex;
+        flex-direction: column !important;
+        margin: auto !important;
+        width: 80% !important;
+    }
+
+    #mission-statement {
+        align-content: center;
+
+    }
 }
 
 /*-----------footer--------------*/
@@ -181,7 +188,7 @@ footer {
 
 footer > span {
 	color: #233142;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
 }
 
 footer > a {
@@ -193,7 +200,7 @@ footer > a {
 
 footer > p {
     color:#233142;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
 }
 
 /*----------------Contact Page -----------*/
@@ -201,7 +208,7 @@ footer > p {
 
 .contact-heading {
     text-align: center;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
     padding-bottom: 30px;
 
 }
@@ -218,7 +225,7 @@ div {
 }
 
 legend {
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
 }
 
 form {
@@ -227,7 +234,7 @@ form {
 }
 
 .details {
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
     color: #233142;
     text-align: center;
     margin-top: 32px;
@@ -249,7 +256,7 @@ form {
     height: 700px;
     float: right;
     text-align: left;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
     background-color: #e3e3e3;
     padding: 12px 2.5% 20px;
 }
@@ -315,7 +322,7 @@ textarea {
 }
 
 .contact-details {
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
     font-size: 14px;
     color: #233142;
 }
@@ -340,7 +347,7 @@ p {
 
 .contact-heading {
     text-align: center;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Aboreto', cursive, sans-serif;
 
 }
 
@@ -366,7 +373,7 @@ input[type=tel] {
 
 /*---------------Treatment Page---------*/
 .fillers {
-    font-family:'Aboreto', cursive;
+    font-family:'Aboreto', cursive, sans-serif;
     font-size: 20px;
 }
 .column {
@@ -410,7 +417,7 @@ input[type=tel] {
 }
 
 div > h2 {
-    font-family: 'Aboreto', cursive; 
+    font-family: 'Aboreto', cursive, sans-serif; 
     padding-left: 20px;
 }
 
@@ -427,6 +434,11 @@ div > h2 {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
   }
   
   .flex-container > div {
