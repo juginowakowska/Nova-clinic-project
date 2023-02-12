@@ -235,6 +235,61 @@ The developer run into a number of issues during the development of this site. T
 **Home Page Image Bug** - A bug was detected by the developer upon uploading images and text content to the main page. Due to the screen being split into two dolumns using sections and divs the developer was unable to align a large image within a designated space. The image kept cominhg up cropped or too big for the container. After a search online and converstaion with mentor, the developer decided to utilise a flex-container and therefore devided the space into two, equal columns with a help of Boostrap. This had rectify the issue and the developer successfully incorporated text and images into the project's main home page.
 **Contact Form Bug** - Upon creating the Contact Form the developer realised that there is not eanough space between the input fields and the text above it, as well as the input fields itself are not big enough. This created a cramped space within the form and would negatively impact the user experience. The developer has used various sites used by codes, like [Slack](https://slack.com/intl/en-gb "Slack")and [Stack Overflow](https://stackoverflow.com/ "Stack Overflow"), to find different ways to fix this issue. The developer then created a css rule for input items by type (email,text.tel) and increased margin and padding. Thsi created the desired space and resolved the problem.
 
+## Technologies Used
+### Main Languages Used
+- HTML5
+- CSS3
 
+### Frameworks, Libraries & Programs Used
+[GitHub](https://github.com/ "Link to Github") - was used to store the project after pushing from Gitpod
+[GitPod](https://www.gitpod.io/ "Link to Gitpod") - was used to write and commit the code as well as push to GitHub
+[Font Awesome](https://fontawesome.com/ "Link to Font Awesome") - was used to obtain icons for the project
+[Balsamiq](https://balsamiq.cloud/ "Link to Balsamiq") - was used to create Wireframes
+[Google Fonts](https://fonts.google.com/ "Link to google Fonts")- was used to source fonts for the project
+[Canva](https://www.canva.com/ "Link to Canva") - was used to create graphics for the project (Like the logo or reviews)
+[Bootstrap](https://getbootstrap.com/ "Link to Bootstrap") - was utilised for flexi-containers and other helpful solutions to make the coide more responsive
+[Am I Responsive?](https://ui.dev/amiresponsive "Link to Am I Respponsive?") -  was utilised to check if the site is responsive 
+[Favicon](https://favicon.io/ "Link to Favicon") - was used to create a logo for the business and browser tab 
 
+[Back to the top](#nova-clinic)
+
+## Testing
+--------------
+
+## Deployment 
+This milestone project was developed using [GitPod](https://www.gitpod.io/ "Link to GitPod site"), which was then committed and pushed to GitHub using the GitPod terminals.
+
+### Deploying on GitHub Pages
+Below there are instruction on how to successfuly deploy this page to GitHub Pages from its GitHub repository.
+
+1. Sign up to [GitHub](https://github.com/signup "Link to the GitHub Sign Up Page") or if you already have an account, simply [Log In](https://github.com/login "Link to log in to GitHub")
+2. Find the [GitHub Repository](https://github.com/juginowakowska/Nova-clinic-project "Link to the Nova Clinic Repository)
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "Pages" section to retrieve the deployed link.
+
+## Credits
+
+### Content 
+- Text used in the project was borrowed and adapted from multiple different pages, some of them are listed below.
+    - [Medical News Today](https://www.medicalnewstoday.com/articles/158647#summary "Link to Medical News Today Article")
+    - [Botaniqua Clinic](https://www.botaniqua.co.uk/ "Link to Botaniqua Clinic Page")
+    - [Beauty Empire Clinic](https://www.beautyempireclinic.com/ "Link to Beauty Empire Clinic")
+    - [Icoon Webpage](https://www.icoone.com/en/news/lymphatic-drainage-the-self-care-trend-to-strengthen-your-health/ "Link to the Icoon Website")
+
+### Code
+- Multiple website were consulted and visited whilst developing this project in order to bettter understand the code that is being used and utlise the developers knowledge gained so far. Pages used for reference are included below :
+    - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+    - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow")
+    - [CSS-Tricks](https://css-tricks.com/ "Link to CSS Tricks Site")
+
+### Media
+- Various platforms and pages were used for sourcing images included in this project, main page used was [Google Images](https://www.google.com/imghp?hl=EN "Link to Google Images Page")
+
+## Acknowledgements 
+- I would like to thank my mentor Owonikoko Oluwaseun for her help and patience, whilts I was preparing this Milestone Project.
+- I would also like to thank the coders community who created a various documnts explaining how HTML5, CSS3 and Bootsrap work, so I could use that as a base to create my own, unique website.
+- I would like to thank my family for the objective feedback and support.
 
