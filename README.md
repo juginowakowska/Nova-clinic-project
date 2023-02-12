@@ -211,7 +211,30 @@ Each page within the site has a responsive and consistent navigation system. Dea
 - **Navigartion Bar** - Appears on every page to provide visible and easily accessable navigation 
 - **Footer** - Appears on the bottom of every page. This provides easy access to external links.
 - **Social Media Links** - Appears in the footer, at the bottom of every page. Links are embedded in the social media icons and open in a new tab to provide better user experience.
-- **
+- **Google Maps Embedded** - Appears on the bottom of the Home page, just before the footer. It is an iframe embedding for Google Maps showing the location of the NOVA clinic. The map is flexible and resizes depending on the screen taht its viewed on.
+- **Contact Form** - Appears in the Contact page of the website. It provides point of contact for customers. Additionally all fields are required to avoid error submissions.
+- **[Home Page](index.html "Home Page")** - Provides the user with basic information about the clinic and gives an overview of services. 
+- **[Contact Page](contact.html "Contact Page")** - Provides the user with a form to initiate contact with the clinic; this could be a question or booking request/cancellation.
+- **[Treatment Page](treatment.html "Treatment Page")** - Provides an overview and detailed description of the treatments.
+
+### Features To Implement In The Future
+- **Gallery**
+    - **Feature** - create a page that displays the "before" and "after" of all treatments. 
+    - **Reasons For The Feature Not Being Currently Included** - not suffient amount of time to execute this on a desired level.
+- **Book Now Button**
+    - **Feature** - create a page that allows user to book a tretament; with calendar and times available displyed and connected to a live booking system.
+    - **Reasons For The Feature Not Being Currently Included** - not suffient amount of time to execute this on a desired level; also more advance coding skills required.
+- **Expand on Treatments** 
+    - **Feature** - create a separate page for each one of the treatments and feature particular team members that specialise in this particular procedures.
+    - **Reasons For The Feature Not Being Currently Included** - not suffient amount of time to execute this on a desired level.
+
+## Issues and Bugs
+The developer run into a number of issues during the development of this site. The most interesting ones have been described below, thid includes the fix for the bug.
+
+**Logo Bug** - A bug was detected whist trying to embed a logo for the page in the browser tab. The logo was uploaded using a [Favicon Generator](https://favicon.io/ "Favicon Generator") with their instructions but unfortunately did not dipslayed as expected. It turns out the link available on favicon was incorrect and eventually through trial and error the developer connected the right folders to the HTML header section. However, the logo was still not visible at times.To make sure the icon is visible every time the page is opened, the server was stoppped and restarted, the page was reloaded and cache removed from the browser with the help of my mentor Owonikoko Oluwaseun.This managed to rectify the issue permanently.
+**Home Page Image Bug** - A bug was detected by the developer upon uploading images and text content to the main page. Due to the screen being split into two dolumns using sections and divs the developer was unable to align a large image within a designated space. The image kept cominhg up cropped or too big for the container. After a search online and converstaion with mentor, the developer decided to utilise a flex-container and therefore devided the space into two, equal columns with a help of Boostrap. This had rectify the issue and the developer successfully incorporated text and images into the project's main home page.
+**Contact Form Bug** - Upon creating the Contact Form the developer realised that there is not eanough space between the input fields and the text above it, as well as the input fields itself are not big enough. This created a cramped space within the form and would negatively impact the user experience. The developer has used various sites used by codes, like [Slack](https://slack.com/intl/en-gb "Slack")and [Stack Overflow](https://stackoverflow.com/ "Stack Overflow"), to find different ways to fix this issue. The developer then created a css rule for input items by type (email,text.tel) and increased margin and padding. Thsi created the desired space and resolved the problem.
+
 
 
 
