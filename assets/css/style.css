@@ -117,6 +117,13 @@ hr {
     padding-top: 100px;
 }
 
+#home-overview {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px; 
+}
+
 /*---------------map--------------------*/
 
 #map-border {
@@ -389,32 +396,8 @@ input[type=tel] {
     padding: 0;
 }
 
-#dermals {
-    height: 400px;
-}
-
 .treatments{
     min-height: 2600px;
-}
-
-#carboxytherapy {
-    height: 400px;
-}
-
-#icoon {
-    height: 500px;
-}
-
-#alma {
-    height: 400px;
-}
-
-#meso {
-    height: 400px;
-}
-
-#prp {
-    height: 400px;
 }
 
 div > h2 {
@@ -423,12 +406,18 @@ div > h2 {
 }
 
 
-.reviews {
-    height: inherit;
-    padding-left: 135px;
-
+.treatment-header {
+    font-family:'Aboreto', cursive, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
 }
 
+.treatments-par {
+    font-size: 17px;
+    padding-bottom: 20px;
+}
 
 .flex-container {
     display: flex;
@@ -455,7 +444,7 @@ div > h2 {
   img {
     max-width: 100%;
     max-height:100%;
-    overflow-clip-margin: content-box;
+    overflow-clip-margin: content;
     overflow: clip;
   }
 
