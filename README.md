@@ -20,7 +20,6 @@ MOCK UP IMAGES HERE
      1. [Main Languages Used](#Main-Languages-Used)
      3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
-     1. [Testing.md](TESTING.md)
 7. [Deployment](#Deployment)
      1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
 8. [Credits](#Credits)
@@ -119,7 +118,13 @@ The scope plane is about defining requirements based on the goals established on
 
 #### Structure
 The information above were organized in a hierarchical tree structure, showing how users can navigate through the site with ease and efficiency, with the following results:
----------------
+<details>
+
+<summary>Structure of the Site</summary>
+
+[Structure of the Site](assets/images/Sitemap.png "Site map")
+
+</details>
 
 ### Skeleton 
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).

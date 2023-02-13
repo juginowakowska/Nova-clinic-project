@@ -101,7 +101,10 @@ body{
 
 .hero-header {
     font-family: 'Aboreto', cursive, sans-serif;
-    
+}
+
+.flex-box {
+    flex-direction: column;
 }
 
 hr {
@@ -124,6 +127,15 @@ hr {
     padding: 30px; 
 }
 
+#review-section {
+    text-align: center;
+}
+
+#clinic-inside {
+    padding-bottom: 40px;
+}
+
+
 /*---------------map--------------------*/
 
 #map-border {
@@ -132,17 +144,14 @@ hr {
     height: 200px;
 }
 
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
-    
-}
-
-
-
 /*--------------media query- reponsivness smartphone--------------*/
 @media screen and (max-width: 800px) {
+    *{
+        margin:0;
+        padding:0;
+        border:0;
+    }
+
     h {
         width: 65%;
         height: 1200px;
@@ -152,17 +161,33 @@ hr {
     #about-clinic {
         padding: 30px 0;
         width: 100%;
-        min-height: 1000px;
         margin-top: 0;
-
     }
+
+    .treatments-content > p {
+        max-width: 80%;
+        min-height: 200px;
+    }
+
+    .treatments {
+        flex-direction: column;
+        flex-basis: auto;
+    }
+
     #overlay-text {
-        box-align: center;
+        text-align: center;
         clear: both;
-        width: 100%;
+        width: 50%;
         float: none;
+        overflow: hidden !important;
+    }
+
+    #main-image {
+        width: 100%;
+        height: 600px;
         overflow: hidden;
     }
+
 
     .hero-header {
        align-items: center;
@@ -171,14 +196,29 @@ hr {
     .flex-container {
         display: flex;
         flex-direction: column !important;
-        margin: auto !important;
-        width: 80% !important;
+        margin-inline-end: auto;
+        flex-basis: 100%;
     }
+
 
     #mission-statement {
         align-content: center;
-
+        margin-top: 70px;
     }
+
+    .text-right-side, .contact-left-side {
+		float:  unset;
+		margin:  20px auto;
+	}
+    #hero-background {
+            height:  unset;
+    }
+    
+    #main-image {
+            height:  50vw;
+    }
+
+
 }
 
 /*-----------footer--------------*/
@@ -256,6 +296,7 @@ form {
     float: left;
     background-color: #e3e3e3;
     color: #233142;
+    
 }
 
 .text-right-side {
@@ -266,6 +307,7 @@ form {
     font-family: 'Aboreto', cursive, sans-serif;
     background-color: #e3e3e3;
     padding: 12px 2.5% 20px;
+    
 }
 
 fieldset {
@@ -426,14 +468,14 @@ div > h2 {
     justify-content: center;
   }
 
-  .flex-container {
+  .flex-container{
     display: flex;
     flex-direction: row;
   }
   
   .flex-container > div {
     background-color: transparent;
-    width: 900px;
+    width: unset;
     margin: 10px;
     text-align: center;
     line-height: 25px;
@@ -444,7 +486,6 @@ div > h2 {
   img {
     max-width: 100%;
     max-height:100%;
-    overflow-clip-margin: content;
     overflow: clip;
   }
 
