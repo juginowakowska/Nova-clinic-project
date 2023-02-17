@@ -384,27 +384,63 @@ website
 Manual testing was conducted on the following elements of the [Home Page](index.html):
 
 - The responsiveness of the page
+<p>
+  <img src="assets/readme images/home content responsiveness.png" width="100%" alt="home content reponsiveness test">
+  <img src="assets/readme images/home-page responsiveness.png" width="100%" alt="home page responsiveness test">
+  <img src="assets/readme images/maps responsiveness.png" width="100%" alt="home page maps responsiveness test">
+  <img src="assets/readme images/reviews responsiveness.png" width="100%" alt="home page reviews responsiveness test">
+</p>  
 
 - Booking link within the text element on the page
 
-- Social Media links are opening in another window 
+ <p>
+  <img src="assets/readme images/booking link in home.png" width="100%" alt="booking link">
+</p>  
 
 - Maps open in a separate window and user is able to scroll in and out the map on the page
+
+ <p>
+  <img src="assets/readme images/interactive maps.png" width="100%" alt="maps test">
+</p>  
 
 ### Treatments Page
 
 - The responsiveness of the page
 
+<p>
+  <img src="assets/readme images/treatment reponsiveness.png" width="100%" alt="treatment page responsiveness">
+  <img src="assets/readme images/treatments  responsiveness.png" width="100%" alt="treatment content responsiveness">
+</p>  
+
 - The booking link with the paragraph on the bottom of the page
+
+<p>
+  <img src="assets/readme images/booking link in treatments.png" width="100%" alt="booking link treatments">
+</p> 
 
 ### Contact Page
 
 - The responsiveness off the page
 
+<p>
+  <img src="assets/readme images/contact page  reponsiveness.png" width="100%" alt="contact page responsiveness">
+  <img src="assets/readme images/contact details reponsiveness.png" width="100%" alt="contact details responsiveness">
+  <img src="assets/readme images/enquiry reponsiveness.png" width="100%" alt="enquiry responsiveness">
+  <img src="assets/readme images/footer responsiveness.png" width="100%" alt="footer responsiveness">
+</p>  
+
 - When filing out the contact form, the user is required to fill out all the field before
 submission is possible
 
+<p>
+  <img src="assets/readme images/field required contact form .png" width="100%" alt="required contact">
+</p> 
+
 - Clicking on the email will atomatically open the email draft
+
+<p>
+  <img src="assets/readme images/email automatically opens contact .png" width="100%" alt="email automatically ">
+</p> 
 
 ## Automated Testing
 
@@ -423,15 +459,21 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 ### Browser Validation
 - Chrome
 
+<p>
+  <img src="assets/readme images/Chrome view .png" width="100%" alt="chrome test">
+</p> 
 
 - Firefox
 
+<p>
+  <img src="assets/readme images/Firefox view.png" width="100%" alt="firefox test">
+</p> 
 
-- Opera
+- Safari
 
-
-- Edge
-
+<p>
+  <img src="assets/readme images/Safari view.png" width="100%" alt="safari test">
+</p> 
 
 ## User testing 
 Couple of my family members and a fiend have been asked to review the page for user
