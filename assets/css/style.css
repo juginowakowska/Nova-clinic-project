@@ -10,10 +10,14 @@ h1 {
     text-transform: uppercase;
     color: #233142;
     }
-
-    /* --------------header--------------*/
 header {
-    height: 200px;
+        height: 200px;
+    }
+    /* --------------header--------------*/
+h2 {
+    font-family: 'Aboreto', cursive, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 body{
@@ -147,7 +151,7 @@ hr {
 }
 
 
-/*---------------map--------------------*/
+/*--map--*/
 
 #map-border {
     margin-bottom: 100px;
@@ -155,7 +159,7 @@ hr {
     height: 200px;
 }
 
-/*--------------media query- reponsivness smartphone--------------*/
+/*--media query- reponsivness smartphone--*/
 @media screen and (max-width: 1000px) {
     *{
         margin:0;
@@ -265,16 +269,16 @@ hr {
     }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 300px) {
     
     #logo {
-        font-size: 200%;
+        font-size: 170%;
         text-align: center;
         margin-top: 10px;
     }
 
     .nav-bar {
-        font-size: 100%;
+        font-size: 80%;
         margin-left: 20%;
     }
 
@@ -286,8 +290,15 @@ hr {
     footer {
         font-size: 30%;
     }
+
+    #mission-statement {
+       visibility: hidden;
+       padding: 0;
+       margin: 60px;
+    }
+
 }
-/*-----------footer--------------*/
+/*--footer--*/
 
 footer {
     background-color: #f95959;
@@ -316,7 +327,7 @@ footer > p {
     font-family: 'Aboreto', cursive, sans-serif;
 }
 
-/*----------------Contact Page -----------*/
+/*--Contact Page--*/
 * {
     box-sizing: border-box;
   }
@@ -485,7 +496,7 @@ input[type=tel] {
     margin:10px 0;
 }
 
-/*---------------Treatment Page---------*/
+/*--Treatment Page--*/
 .fillers {
     font-family:'Aboreto', cursive, sans-serif;
     font-size: 20px;
@@ -560,4 +571,10 @@ div > h2 {
     font-size: 15px;
   }
 
+  .price {
+    color: #f95959;
+    font-family: 'Aboreto', cursive, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+  }
   

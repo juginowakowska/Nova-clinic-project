@@ -7,34 +7,34 @@
 [Click here to view the live project](https://8000-juginowakow-novaclinicp-fwcidu5t89p.ws-eu87.gitpod.io)
 
 ## Table of contents
-1. [Introduction](#introduction)
-2. [UX](#UX)
-    1. [User Demographic](#User-Demographic)
-    2. [User Stories](#User-Stories)
-    3. [Development Planes](#Development-Planes)
-    4. [Design](#Design)
-3. [Features](#Features)
-    1. [Design Features](#Design-Features) 
-    2. [Existing Features](#Existing-Features)
-    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
-4. [Issues and Bugs](#Issues-and-Bugs)
-5. [Technologies Used](#Technologies-Used)
-     1. [Main Languages Used](#Main-Languages-Used)
-     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
-6. [Testing](#Testing)
-    1. [Testing User Stories](#Testing-User-Stories)
-    2. [Manual Testing](#Manual-Testing)
-    3. [Automated Testing](#Automated-Testing) 
-     - [Code Validation](#Code-Validation)
-     - [Browser Validation](#Browser-Validation)
-    4. [User Testing](#User-Testing)
-7. [Deployment](#Deployment)
-     1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
-8. [Credits](#Credits)
-     1. [Content](#Content)
-     2. [Media](#Media)
-     3. [Code](#Code)
-9. [Acknowledgements](#Acknowledgements)
+1. Introduction
+2. UX
+    1. User Demographic
+    2. User Stories
+    3. Development Planes
+    4. Design
+3. Features
+    1. Design Features
+    2. Existing Features
+    3. Features to Implement in the future
+4. Issues and Bugs
+5. Technologies Used
+     1. Main Languages Used
+     3. Frameworks, Libraries & Programs Used
+6. Testing
+    1. Testing User Stories
+    2. Manual Testing
+    3. Automated Testing
+     - Code Validation
+     - Browser Validation
+    4. User Testing
+7. Deployment
+     1. Deploying on GitHub Pages
+8. Credits
+     1. Content
+     2. Media
+     3. Code
+9. Acknowledgements
 ***
 
 ## Introduction
@@ -451,9 +451,27 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - Home Page
 
+<p>
+  <img src="assets/readme images/NOVA CLINIC - Home page .png" width="100%" alt="Home Page Validator">
+</p> 
+
 - Treatments Page
 
+<p>
+  <img src="assets/readme images/HTML Validator Treatments Page.png" width="100%" alt="Treatment Page Validator">
+</p> 
+
 - Contact Page 
+
+<p>
+  <img src="assets/readme images/HTML Validator Contact Page .png" width="100%" alt="Contact Page Validator">
+</p> 
+
+- CSS 
+
+<p>
+  <img src="assets/readme images/CSS Validator.png" width="100%" alt="CSS Validator">
+</p> 
 
 
 ### Browser Validation
