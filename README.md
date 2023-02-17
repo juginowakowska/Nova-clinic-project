@@ -4,7 +4,7 @@
   <img src="assets/readme images/Nova.png" width="100%" alt="mock up photos">
 </p>
 
-[Click here to view the live project](https://8000-juginowakow-novaclinicp-fwcidu5t89p.ws-eu87.gitpod.io)
+[Click here to view the live project](https://juginowakowska.github.io/Nova-clinic-project/index.html)
 
 ## Table of contents
 1. Introduction
