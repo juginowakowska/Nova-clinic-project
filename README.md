@@ -512,6 +512,15 @@ Below there are instruction on how to successfuly deploy this page to GitHub Pag
 6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
 7. Scroll back down to the "Pages" section to retrieve the deployed link.
 
+To work on the project code within a local IDE, such as VS code etc :
+1. Follow this link to the project [Github Repository](https://juginowakow-novaclinicp-buf53w2mqkz.ws-eu87.gitpod.io/)
+2. Under the repository name click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository.
+4. In your local IDE open the terminal.
+5. Change the current working directoryto the location where you want the clone directory to be made.
+6. Type - git clone - and then paste the URL you copies in Step 3.
+7. Press Enter and your local clone will be created.
+
 ## Credits
 
 ### Content 
