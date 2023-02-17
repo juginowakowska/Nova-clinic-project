@@ -535,6 +535,7 @@ To work on the project code within a local IDE, such as VS code etc :
     - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
     - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow")
     - [CSS-Tricks](https://css-tricks.com/ "Link to CSS Tricks Site")
+- Any borrowed code is mentioned and acknowledged in the notes in the Gitpod 
 
 ### Media
 - Various platforms and pages were used for sourcing images included in this project, main page used was [Google Images](https://www.google.com/imghp?hl=EN "Link to Google Images Page")
