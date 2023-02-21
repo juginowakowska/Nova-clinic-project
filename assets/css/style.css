@@ -392,6 +392,7 @@ form {
     
 }
 
+/*--parts of this code are adapted from W3Schools--*/
 fieldset {
     display: block;
     margin-inline-start: 2px;
